@@ -31,3 +31,4 @@ do { /ip firewall address-list add address=84.243.64.0/18 comment="AR_Telekom(In
 do { /ip firewall address-list add address=23.88.96.143 comment=Wireguard list="Common RO" } on-error={}
 do { /ip firewall address-list add address=89.33.4.151 comment="Crisoft sencod connection" list="Common RO" } on-error={}
 do { /ip firewall address-list add address=5.12.0.0/14 comment="RDS " list="Common RO" } on-error={}
+do { /ip firewall address-list add address=55.12.0.0/14 comment="RDS " list="Common RO" } on-error={}
