@@ -1,0 +1,33 @@
+do { /ip firewall address-list add address=86.120.0.0/13 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=213.233.64.0/18 comment="Vodafone RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=82.137.0.0/18 comment="RDS mobil" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=109.166.128.0/17 comment="Orange RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=79.112.0.0/13 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=188.24.0.0/14 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=92.80.0.0/13 comment=RTC list="Common RO" } on-error={}
+do { /ip firewall address-list add address=84.232.128.0/17 comment="RDS buisness" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=82.76.0.0/14 comment="RDS Buisness" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=86.35.32.0/19 comment=RTC list="Common RO" } on-error={}
+do { /ip firewall address-list add address=194.187.20.0/24 comment=Brynet list="Common RO" } on-error={}
+do { /ip firewall address-list add address=86.34.0.0/16 comment=RTC list="Common RO" } on-error={}
+do { /ip firewall address-list add address=109.96.0.0/13 comment="RTC RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=5.14.0.0/16 comment="RDS Rezidential" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=89.35.62.0/23 comment="Telesat RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=31.5.128.0/17 comment="UPC Romania" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=100.64.0.0/10 comment="RDS BULLSHIT" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=213.233.80.0/20 comment="Vodafone RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=89.122.0.0/16 comment=RTC list="Common RO" } on-error={}
+do { /ip firewall address-list add address=98.82.0.0/16 comment=Telekom/RTC list="Common RO" } on-error={}
+do { /ip firewall address-list add address=93.122.128.0/17 comment="Orange RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=212.93.128.0/19 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=89.121.128.0/17 comment=Telekom list="Common RO" } on-error={}
+do { /ip firewall address-list add address=5.2.128.0/17 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=81.196.0.0/16 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=37.251.208.0/20 comment="Orange RO" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=46.97.0.0/16 comment=Vodafone list="Common RO" } on-error={}
+do { /ip firewall address-list add address=178.138.0.0/18 comment="Telekom ro" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=212.54.96.0/19 comment=RDS list="Common RO" } on-error={}
+do { /ip firewall address-list add address=84.243.64.0/18 comment="AR_Telekom(Incar)" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=23.88.96.143 comment=Wireguard list="Common RO" } on-error={}
+do { /ip firewall address-list add address=89.33.4.151 comment="Crisoft sencod connection" list="Common RO" } on-error={}
+do { /ip firewall address-list add address=5.12.0.0/14 comment="RDS " list="Common RO" } on-error={}
