@@ -33,3 +33,4 @@ do { /ip firewall address-list add address=55.12.0.0/14 comment="RDS " list="Com
 do { /ip firewall address-list add address=55.12.0.0/14 comment="RDS " list="Common RO" } on-error={}
 do { /ip firewall address-list add address=55.12.0.0/14 comment="RDS " list="Common RO" } on-error={}
 do { /ip firewall address-list add address=55.12.0.0/14 comment="RDS " list="Common RO" } on-error={}
+do { /ip firewall address-list add address=55.112.0.0/14 comment="RDS " list="Common RO" } on-error={}
